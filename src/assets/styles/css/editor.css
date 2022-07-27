@@ -1,0 +1,126 @@
+/* Editor */
+.m6zwb4v,
+.m6zwb4v:visited {
+  color: #575f67;
+  cursor: pointer;
+  display: inline-block;
+  background: #e6f3ff;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.m6zwb4v:hover,
+.m6zwb4v:focus {
+  color: #677584;
+  background: #edf5fd;
+  outline: 0;
+}
+
+.m6zwb4v:active {
+  color: #222;
+  background: #455261;
+}
+
+/* Wrapper */
+.mnw6qvm {
+  position: absolute;
+  min-width: 220px;
+  max-width: 440px;
+  cursor: pointer;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+
+  @apply bg-white;
+  @apply rounded-4;
+  @apply shadow-sm;
+  @apply dark:shadow-none;
+  @apply p-6;
+  @apply border-1;
+  @apply border-grey-12;
+  @apply transform;
+  @apply mt-10;
+  @apply overflow-y-hidden;
+}
+
+.m1ymsnxd {
+  opacity: 0;
+}
+
+.m126ak5t {
+  opacity: 1;
+}
+
+.mtiwdxc {
+  @apply transition-none;
+  @apply p-10;
+  @apply bg-white;
+  @apply mb-[-10.5px];
+}
+
+.mtiwdxc:active {
+  @apply bg-grey-6;
+}
+
+.myz2dw1 {
+  @apply transition-none;
+  @apply bg-grey-6;
+  @apply p-10;
+  @apply rounded-4;
+  @apply items-center;
+  @apply grid;
+  @apply grid-cols-[auto,1fr];
+}
+
+.myz2dw1:active {
+  @apply bg-grey-6;
+}
+
+/* Username */
+.mpqdcgq {
+  @apply m-0;
+  @apply text-black;
+  @apply text-14;
+  @apply font-bold;
+  @apply w-[100%-44px];
+  @apply overflow-ellipsis;
+  @apply truncate;
+}
+
+/* Avatar */
+.m1mfvffo {
+  @apply bg-red;
+  @apply w-32;
+  @apply h-32;
+  @apply rounded-full;
+  @apply mr-12;
+}
+
+/* Mentions */
+.public-DraftStyleDefault-block {
+  @apply !m-0;
+}
+
+.m6zwb4v {
+  @apply pl-8;
+  @apply pr-12;
+  @apply bg-purple-10;
+  @apply text-purple;
+  @apply rounded-full;
+  @apply text-14;
+  @apply font-bold;
+  @apply hover:bg-purple;
+  @apply hover:text-white;
+}

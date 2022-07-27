@@ -1,0 +1,56 @@
+.fixed.free {
+  max-height: calc(100vh - var(--ion-safe-area-top) - var(--ion-safe-area-bottom));
+  max-width: calc(100vw - var(--ion-safe-area-left) - var(--ion-safe-area-right));
+
+  @apply min-w-0;
+}
+
+.fixed.wrapper {
+  width: calc(100vw - var(--ion-safe-area-left) - var(--ion-safe-area-right));
+
+  @apply min-w-0;
+}
+
+.fixed.overlay-bottom {
+  height: var(--ion-safe-area-bottom);
+
+  @apply bottom-0;
+}
+
+.fixed.overlay-top {
+  height: var(--ion-safe-area-top);
+
+  @apply top-0;
+}
+
+.h-screen {
+  @apply h-[100vh];
+}
+
+.min-h-screen {
+  @apply min-h-[100vh];
+}
+
+.fixed.top-0 {
+  top: var(--ion-safe-area-top);
+}
+
+.fixed.right-0 {
+  right: var(--ion-safe-area-right);
+}
+
+.fixed.bottom-0 {
+  bottom: var(--ion-safe-area-bottom);
+}
+
+.fixed.popup.bottom-0 {
+  @apply lg:bottom-[auto];
+}
+
+.fixed.popup-b.top-0 {
+  @apply lg:top-[auto];
+}
+
+.fixed.left-0 {
+  left: var(--ion-safe-area-left);
+}

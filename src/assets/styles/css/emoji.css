@@ -1,0 +1,128 @@
+.emoji-mart {
+  width: 100% !important;
+
+  @apply rounded-t-[16px];
+  @apply lg:rounded-4;
+  @apply border-1;
+  @apply border-grey-12;
+  @apply p-12;
+  @apply xs:p-20;
+  @apply lg:p-14;
+  @apply bg-white;
+  @apply dark:shadow-none;
+  @apply lg:shadow-sm;
+  @apply max-h-[calc(100vh-60px)];
+}
+
+.emoji-mart .emoji-mart-bar {
+  @apply hidden;
+}
+
+.emoji-mart .emoji-mart-scroll {
+  padding: 0 !important;
+
+  @apply !max-h-[calc(100%-60px)];
+  @apply lg:!max-h-[160px];
+  @apply w-full;
+  @apply grid;
+  @apply grid-cols-1;
+  @apply gap-8;
+  @apply items-start;
+}
+
+.emoji-mart .emoji-mart-category {
+  @apply w-full;
+  @apply grid;
+  @apply grid-cols-1;
+  @apply items-start;
+}
+
+.emoji-mart .emoji-mart-category-label {
+  @apply bg-white;
+}
+
+.emoji-mart .emoji-mart-category-label span {
+  padding: 0 0 8px !important;
+
+  @apply text-14;
+}
+
+.emoji-mart .emoji-mart-category-list {
+  @apply w-full;
+  @apply grid;
+  @apply grid-cols-4;
+  @apply xs:grid-cols-6;
+  @apply sm:grid-cols-8;
+  @apply sm:grid-cols-[repeat(12,minmax(0,1fr))];
+  @apply md:grid-cols-[repeat(16,minmax(0,1fr))];
+  @apply lg:grid-cols-8;
+  @apply gap-2;
+}
+
+.emoji-mart .emoji-mart-emoji {
+  padding: 0 !important;
+
+  @apply cursor-pointer;
+  @apply w-full;
+  @apply h-30;
+  @apply rounded-4;
+  @apply hover:bg-grey-3;
+  @apply select-none;
+  @apply text-16;
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+}
+
+.emoji-mart .emoji-mart-emoji span {
+  cursor: pointer !important;
+}
+
+.emoji-mart .emoji-mart-search {
+  margin: 0 0 10px 0 !important;
+  padding: 0 !important;
+
+  @apply relative;
+  @apply bg-grey-3;
+  @apply h-32;
+  @apply flex;
+  @apply items-center;
+  @apply rounded-4;
+}
+
+.emoji-mart .emoji-mart-search input {
+  border: none !important;
+  padding: 0 42px 0 10px !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.emoji-mart .emoji-mart-search-icon {
+  padding: 0 !important;
+
+  @apply hover:bg-grey-4;
+  @apply rounded-4;
+  @apply w-32;
+  @apply h-32;
+  @apply absolute;
+  @apply top-0;
+  @apply right-0;
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+}
+
+.draft .emoji-mart-emoji {
+  @apply leading-[30px];
+  @apply mb-[-4px];
+  @apply pr-2;
+}
+
+.draft .emoji-mart-emoji span {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.emoji-mart-category-label span {
+  background-color: transparent !important;
+}

@@ -1,0 +1,42 @@
+.react-tel-input .form-control {
+  @apply w-full;
+  @apply h-42;
+  @apply pr-16;
+  @apply pl-56;
+  @apply border-1;
+  @apply border-grey-12;
+  @apply bg-white;
+  @apply shadow-md;
+  @apply rounded-4;
+  @apply text-14;
+  @apply text-black;
+  font-weight: 500;
+}
+.react-tel-input .country-list {
+  @apply w-full;
+  @apply rounded-4;
+}
+.react-tel-input .form-control:focus {
+  @apply border-purple;
+}
+.react-tel-input .form-control::placeholder {
+  font-weight: 400;
+}
+.react-tel-input .flag-dropdown {
+  @apply border-0;
+  @apply rounded-4;
+  @apply w-52;
+  background: none;
+}
+.react-tel-input .flag-dropdown,
+.react-tel-input .selected-flag {
+  background: none !important;
+}
+.react-tel-input .flag-dropdown.open {
+  @apply w-full;
+  background: none;
+}
+.react-tel-input .selected-flag {
+  @apply w-full;
+  @apply pl-14;
+}

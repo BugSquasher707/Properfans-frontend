@@ -1,0 +1,52 @@
+@font-face {
+  font-family: Momentum;
+  src: url("../../fonts/PPMonumentExtended-Regular.ttf");
+}
+
+@font-face {
+  font-family: MomentumBold;
+  src: url("../../fonts/PPMonumentExtended-Bold.ttf");
+}
+
+@font-face {
+  font-family: MomentumBlack;
+  src: url("../../fonts/PPMonumentExtended-Black.ttf");
+}
+
+* {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.input,
+.input::placeholder {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.font-inter-light {
+  font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.font-black {
+  font-weight: 700;
+}
+
+.font-momentum {
+  font-family: "Momentum", Arial, Helvetica, sans-serif;
+}
+
+.font-momentum-bold {
+  font-family: "MomentumBold", Arial, Helvetica, sans-serif;
+}
+
+.font-momentum-black {
+  font-family: "MomentumBlack", Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,33 @@
+.slick-prev,
+.slick-next {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 50%;
+  width: 30px !important;
+  height: 30px !important;
+  z-index: 2;
+  background-color: #ffffff;
+}
+
+.slick-prev {
+  left: -40px !important;
+}
+
+.slick-next {
+  right: -40px !important;
+}
+
+@media screen and (max-width: 1099px) {
+  .slick-prev {
+    left: -7px !important;
+  }
+  .slick-next {
+    right: -7px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+}

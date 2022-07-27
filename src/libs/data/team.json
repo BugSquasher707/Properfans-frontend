@@ -1,0 +1,193 @@
+{
+  "team": [
+    {
+      "icon": "/media/team/Haakon_Ellingsen.jpg",
+      "name": "Haakon Ellingsen",
+      "title": "Founder, CEO",
+      "linkedin": "https://www.linkedin.com/in/h%C3%A5kon-ellingsen-a080561b6/",
+      "twitter": "https://twitter.com/hakon_ellingsen"
+    },
+    {
+      "icon": "/media/team/Romuald_Megard.jpg",
+      "name": "Romuald Megard",
+      "title": "COO",
+      "linkedin": "https://www.linkedin.com/in/romuald-megard-627227215/",
+      "twitter": "https://twitter.com/FlusherTheDude"
+    },
+    {
+      "icon": "/media/team/Eirik_Lingaas_Marthinsen.jpg",
+      "name": "Eirik Lingaas Marthinsen",
+      "title": "VP",
+      "linkedin": "https://www.linkedin.com/in/eirikmarthi/",
+      "twitter": "https://twitter.com/eirikmarthi"
+    },
+    {
+      "icon": "/media/team/Martijn_Vermeulen.jpg",
+      "name": "Martijn Vermeulen",
+      "title": "CWO, Head of Development",
+      "linkedin": "https://www.linkedin.com/in/martijn-vermeulen-6643a817a/",
+      "twitter": "https://twitter.com/Maestro_WD"
+    },
+    {
+      "icon": "/media/team/Jonas_Bergaas.jpg",
+      "name": "Jonas Bergaas",
+      "title": "CTO, Backend Developer",
+      "linkedin": "https://www.linkedin.com/in/jonas-bergaas-09a41a224/",
+      "twitter": "https://twitter.com/dotHeyHey"
+    },
+    {
+      "icon": "/media/team/Heike_Zetterstrøm.jpg",
+      "name": "Heike Zetterstrøm",
+      "title": "Head of Creator Growth",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Elliot_Carlberg.jpg",
+      "name": "Elliot Carlberg",
+      "title": "Head of Marketing",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Sebastian_Mellem.jpg",
+      "name": "Sebastian Mellem",
+      "title": "Head of Onboarding",
+      "linkedin": "",
+      "twitter": "https://twitter.com/sebastianmellem"
+    },
+    {
+      "icon": "/media/team/Zachary_Jasper.jpg",
+      "name": "Zachary Jasper",
+      "title": "Head of Support",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Isaac_Sanmiguel.jpg",
+      "name": "Isaac Sanmiguel",
+      "title": "Head of UIX",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Ido_Abrahami.jpg",
+      "name": "Ido Abrahami",
+      "title": "Community Manager",
+      "linkedin": "https://www.linkedin.com/in/ido-abrahami-a3a098224/",
+      "twitter": "https://twitter.com/idoabr"
+    },
+    {
+      "icon": "/media/team/Luuk_Tap.jpg",
+      "name": "Luuk Tap",
+      "title": "Developer",
+      "linkedin": "",
+      "twitter": "https://twitter.com/luuktap"
+    },
+    {
+      "icon": "/media/team/L'ubomír_Csicsai.jpg",
+      "name": "L'ubomír Csicsai",
+      "title": "UIX Designer",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Omar_Talovic.jpg",
+      "name": "Omar Talovic",
+      "title": "UIX Designer",
+      "linkedin": "",
+      "twitter": "https://twitter.com/GraphicsMorgan"
+    },
+    {
+      "icon": "/media/team/Matt_Vancoillie.jpg",
+      "name": "Matt Vancoillie",
+      "title": "UIX Designer",
+      "linkedin": "https://be.linkedin.com/in/mattvancoillie",
+      "twitter": "https://twitter.com/mattvancoillie"
+    },
+    {
+      "icon": "/media/team/Angelo_Santos.jpg",
+      "name": "Angelo Santos",
+      "title": "Motion Designer",
+      "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-santos/",
+      "twitter": "https://twitter.com/Dash_FX"
+    },
+    {
+      "icon": "/media/team/Humaid_Ahmad.jpg",
+      "name": "Humaid Ahmad",
+      "title": "Motion Designer",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Will_Taylor.jpg",
+      "name": "Will Taylor",
+      "title": "Motion Designer",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Andrija_Mitic.jpg",
+      "name": "Andrija Mitic",
+      "title": "Graphic Designer",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Raúl_Martínez_Ruiz.jpg",
+      "name": "Raúl Martínez Ruiz",
+      "title": "Graphic Designer",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Felipe_Mandiola.jpg",
+      "name": "Felipe Mandiola",
+      "title": "Graphic Designer",
+      "linkedin": "",
+      "twitter": "https://twitter.com/icarusmind"
+    },
+    {
+      "icon": "/media/team/Clarisa_Akred.jpg",
+      "name": "Clarisa Akred",
+      "title": "Graphic Designer",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Emiliano_Spinelli.jpg",
+      "name": "Emiliano Spinelli",
+      "title": "Social Media Manager",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Sebastian_Strumpher-Mcmenemey.jpg",
+      "name": "Sebastian Strumpher-Mcmenemey",
+      "title": "Video Editor",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Audun_Frantzen.jpg",
+      "name": "Audun Frantzen",
+      "title": "Video Editor",
+      "linkedin": "https://www.linkedin.com/in/audun-kirkholt-frantzen-1a9aab181/",
+      "twitter": "https://twitter.com/AudunKF"
+    },
+    {
+      "icon": "/media/team/Amogh_Valsangkar.jpg",
+      "name": "Amogh Valsangkar",
+      "title": "Illustrator",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "icon": "/media/team/Matthew_Finlay.jpg",
+      "name": "Matthew Finlay",
+      "title": "Platform Admin",
+      "linkedin": "",
+      "twitter": ""
+    }
+  ]
+}

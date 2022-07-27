@@ -1,0 +1,4 @@
+.clip-path-avatar {
+  -webkit-clip-path: url(#shape-avatar);
+  clip-path: url(#shape-avatar);
+}

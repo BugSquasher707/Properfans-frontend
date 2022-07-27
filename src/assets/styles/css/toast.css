@@ -1,0 +1,72 @@
+:root {
+  --toastify-color-info: rgba(230, 239, 250, 1);
+  --toastify-color-info-2: rgba(86, 182, 228, 1);
+  --toastify-color-info-3: rgba(0, 112, 224, 1);
+  --toastify-color-success: rgba(228, 246, 239, 1);
+  --toastify-color-success-2: rgba(118, 191, 76, 1);
+  --toastify-color-success-3: rgba(12, 112, 64, 1);
+  --toastify-color-warning: rgba(254, 247, 234, 1);
+  --toastify-color-warning-2: rgba(255, 180, 70, 1);
+  --toastify-color-warning-3: rgba(248, 143, 1, 1);
+  --toastify-color-error: rgba(252, 237, 233, 1);
+  --toastify-color-error-2: rgba(225, 88, 88, 1);
+  --toastify-color-error-3: rgba(219, 48, 86, 1);
+}
+
+.Toastify__toast-container {
+  @apply grid;
+  @apply grid-cols-1;
+  @apply gap-0;
+  @apply sm:gap-10;
+  @apply fixed;
+  @apply top-0;
+  @apply sm:top-[100px];
+  @apply lg:top-[116px];
+  @apply lg:top-100;
+  @apply px-0;
+  @apply py-0;
+  @apply lg:py-12;
+}
+
+.Toastify__toast {
+  @apply p-0;
+  @apply m-0;
+  @apply bg-transparent;
+  @apply shadow-none;
+  @apply h-auto;
+  @apply min-h-0;
+  @apply overflow-hidden;
+  @apply rounded-4;
+  @apply lg:rounded-4;
+}
+
+.Toastify__toast-body {
+  @apply m-0;
+  @apply p-0;
+  @apply h-auto;
+}
+
+.Toastify__close-button {
+  @apply hidden;
+}
+
+.Toastify__progress-bar {
+  @apply z-10;
+  @apply bg-white-40;
+}
+
+.Toastify__toast--error .Toastify__progress-bar {
+  @apply bg-toast-error-3;
+}
+
+.Toastify__toast--info .Toastify__progress-bar {
+  @apply bg-white-40;
+}
+
+.Toastify__toast--success .Toastify__progress-bar {
+  @apply bg-toast-success-3;
+}
+
+.Toastify__toast--warning .Toastify__progress-bar {
+  @apply bg-toast-warning-3;
+}

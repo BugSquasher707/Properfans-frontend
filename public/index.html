@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="Properfans" content="Properfans" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Properfans is the platform where you meet your idols." />
+
+    <meta property="og:title" content="Properfans" />
+    <meta property="og:description" content="Properfans is the platform where you meet your idols." />
+    <meta property="og:image" content="%PUBLIC_URL%/img/properfans.png" />
+    <meta property="og:site_name" content="Properfans" />
+
+    <meta name="twitter:title" content="Properfans" />
+    <meta name="twitter:description" content="Properfans is the platform where you meet your idols." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/img/properfans.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script>
+      let m = document.createElement("meta")
+      m.name = "viewport"
+
+      if ("%REACT_APP_DEVELOPMENT_APP%" === "1") {
+        m.content = "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      } else {
+        m.content = "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover"
+      }
+
+      document.head.appendChild(m)
+    </script>
+
+    <!-- <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: "0ad89f9a-69a3-4f85-b7cd-fca14737ee0c",
+        safari_webid: "web.onesignal.auto.33b67024-44c4-4b60-aec5-91af5568c874",
+        notifyButton: {
+          enable: false,
+        },
+      });
+    });
+  </script> -->
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/loader.css" />
+
+    <title>Properfans</title>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div class="w-full">
+      <div id="app"></div>
+
+      <div class="loader app">
+        <div class="sk-cube-grid">
+          <div class="sk-cube sk-cube1"></div>
+          <div class="sk-cube sk-cube2"></div>
+          <div class="sk-cube sk-cube3"></div>
+          <div class="sk-cube sk-cube4"></div>
+          <div class="sk-cube sk-cube5"></div>
+          <div class="sk-cube sk-cube6"></div>
+          <div class="sk-cube sk-cube7"></div>
+          <div class="sk-cube sk-cube8"></div>
+          <div class="sk-cube sk-cube9"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

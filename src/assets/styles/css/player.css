@@ -1,0 +1,10 @@
+.player-seek {
+  @apply h-30;
+  @apply rounded-none;
+  @apply opacity-0;
+  @apply bg-transparent;
+}
+
+.player-seek::-webkit-slider-thumb {
+  @apply flex;
+}

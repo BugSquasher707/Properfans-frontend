@@ -1,0 +1,62 @@
+.pag {
+  @apply p-12;
+  @apply pt-0;
+  @apply xs:p-20;
+  @apply xs:pt-10;
+  @apply lg:p-30;
+  @apply lg:pt-14;
+  @apply mt-60;
+  @apply lg:mt-80;
+  @apply mb-60;
+  @apply lg:mb-0;
+}
+
+.pag.full {
+  @apply mb-0;
+}
+
+.pag.account {
+  @apply lg:bottom-50;
+}
+
+.pag.brand {
+  @apply mt-0;
+  @apply lg:mt-80;
+  @apply p-0;
+  @apply lg:p-30;
+  @apply lg:pt-14;
+}
+
+.pag.footer {
+  @apply lg:mb-80;
+}
+
+.pag.auth {
+  @apply mt-40;
+  @apply lg:mt-80;
+  @apply mb-40;
+  @apply lg:mb-60;
+}
+
+.pag.buttons {
+  @apply mb-[120px];
+  @apply sm:mb-80;
+}
+
+.pag.buttons-small {
+  @apply mb-[64px];
+  @apply md:mb-80;
+}
+
+.pag.chat {
+  @apply fixed;
+  @apply !m-0;
+  @apply bottom-60;
+  @apply lg:bottom-0;
+  @apply pb-12;
+  @apply xs:pb-20;
+  @apply lg:pb-30;
+  @apply top-60;
+  @apply lg:top-80;
+  @apply overflow-auto;
+}

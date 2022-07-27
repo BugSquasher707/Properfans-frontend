@@ -1,0 +1,35 @@
+input.slider,
+input.slider:focus {
+  @apply appearance-none;
+  @apply w-full;
+  @apply h-4;
+  @apply bg-grey-6;
+  @apply outline-none;
+  @apply rounded-4;
+  @apply absolute;
+  @apply top-0;
+  @apply left-0;
+}
+
+input.slider::-webkit-slider-thumb {
+  @apply appearance-none;
+  @apply w-20;
+  @apply h-20;
+  @apply bg-white;
+  @apply rounded-full;
+  @apply border-1;
+  @apply border-solid;
+  @apply border-grey-12;
+  @apply cursor-pointer;
+  @apply shadow-md;
+  @apply dark:shadow-none;
+  @apply z-20;
+  @apply relative;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4caf50;
+  cursor: pointer;
+}
